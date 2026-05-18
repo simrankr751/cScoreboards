@@ -1,0 +1,72 @@
+#---------------------
+#
+#Conditional Scoreboards
+#
+#Made by CurryMan, for Charmunk
+#---------------------
+
+
+
+prefix: '&c&lcScoreboard &8» &r'
+#Leave blank to disable feature... The Prefix
+reload-message: '&acScoreboards has been reloaded successfully'
+#The reload message
+noPerms: '&cMissing Permissions'
+#The no permission message
+
+#GUIDE BELOW. The options & settings below the dotted line will NOT DO ANYTHING, so don't bother changing anything.
+
+#--------------EXAMPLE .YML FILE IN SETTINGS-------------------#
+type: REGION
+#Options are:
+#REGION for a region condition
+#WORLD for a world condition
+
+world-name: 'none'
+#The name of the world ONLY IF YOUR TYPE IS WORLD.
+#Set to 'none' if your type is REGION
+
+region-name: 'test'
+#The name of the region ONLY IF YOUR TYPE IS REGION
+#Set to 'none' if your type is WORLD
+
+action: SHOW
+#What the plugin should do with the scoreboard.
+#Options are:
+#SHOW to show a specified scoreboard
+#HIDE to toggle the current scoreboard off
+#If set to HIDE, the scoreboard-name option below will not matter, you can set it to 'none' to disable
+
+scoreboard-name: 'test'
+#ONLY if the action is set to SHOW.
+#Set to 'none' to disable
+#Get this from the TAB config.yml, under 'scoreboards:'
+
+notify:
+  enabled: true #Set to false to disable this feature
+  message: '&aWelcome to the spawn area! Your scoreboard has been updated.'
+  #The actual message.
+  #The prefix will be added on AT THE FRONT of the message
+
+reset_on_leave:
+  enabled: true #Set to false to disable this feature
+  resetScoreboard-name: 'default'
+  #This is ONLY APPLICABLE IF YOUR TYPE IS REGION - DOES NOT WORK WITH WORLD TYPE.
+  #This is the scoreboard the plugin will reset back to when a player leaves a region, and doesn't enter another specified region.
+#--------------END OF EXAMPLE-------------------#
+
+
+#--------------GUIDE---------------#
+
+#Creating a scoreboard setting----
+#1. Make sure you have a scoreboard ready in TAB's config.yml, under 'scoreboards:'. This will be the
+#   scoreboard that will be displayed (if action is SHOW)
+#2. Head over to the plugin directory in the plugins folder, then into the 'Settings Directory' (/home/container/plugins/cScoreboards/Settings)
+#3. Create a new file, and set the type to 'YAML' (bottom right)
+#4. Copy and Paste the example config (ABOVE)
+#5. Edit to your needs (Use my comments for help)
+#6. Click Save
+#7. Restart OR run /csb reload in game or through console
+#8. You're done!
+
+#--------------GUIDE---------------#

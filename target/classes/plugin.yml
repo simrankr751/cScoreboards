@@ -1,0 +1,13 @@
+name: cScoreboards
+version: '1.0'
+main: org.curryman.cscoreboards.CScoreboards
+api-version: '1.17'
+depend: [TAB]
+commands:
+  csb:
+    description: Main plugin command
+    permission: csb.use
+permissions:
+  csb.use:
+    description: Use the plugin commands
+    default: op
