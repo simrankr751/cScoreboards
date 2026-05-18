@@ -42,7 +42,7 @@ public class CScoreboards extends JavaPlugin implements Listener {
         getLogger().info(ANSI_YELLOW + "Plugin enabled successfully." + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Configuration loaded successfully." + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Settings loaded successfully" + ANSI_RESET);
-        getLogger().info(ANSI_YELLOW + "Developed by CurryMan" + ANSI_RESET);
+        getLogger().info(ANSI_YELLOW + "Developed by Encrypted and Simran" + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Made for Charmunk" + ANSI_RESET);
         getLogger().info(ANSI_GOLD + "==================================" + ANSI_RESET);
 
