@@ -42,7 +42,7 @@ public class CScoreboards extends JavaPlugin implements Listener {
         getLogger().info(ANSI_YELLOW + "Plugin enabled successfully." + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Configuration loaded successfully." + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Settings loaded successfully" + ANSI_RESET);
-        getLogger().info(ANSI_YELLOW + "Developed by Encrypted and Simran" + ANSI_RESET);
+        getLogger().info(ANSI_YELLOW + "Developed by Simran" + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Made for Charmunk" + ANSI_RESET);
         getLogger().info(ANSI_GOLD + "==================================" + ANSI_RESET);
 
@@ -65,7 +65,7 @@ public class CScoreboards extends JavaPlugin implements Listener {
         getLogger().info(ANSI_YELLOW + "Plugin disabled successfully." + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Configuration saved safely." + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Settings saved to memory" + ANSI_RESET);
-        getLogger().info(ANSI_YELLOW + "Developed by Encrypted and Simran" + ANSI_RESET);
+        getLogger().info(ANSI_YELLOW + "Developed by Simran" + ANSI_RESET);
         getLogger().info(ANSI_YELLOW + "Made for Charmunk" + ANSI_RESET);
         getLogger().info(ANSI_GOLD + "==================================" + ANSI_RESET);
     }
@@ -248,7 +248,7 @@ public class CScoreboards extends JavaPlugin implements Listener {
             sender.sendMessage(ChatColor.YELLOW + "VERSIONS: 1.17 and above");
             sender.sendMessage(ChatColor.YELLOW + "DEPENDS: TAB");
             sender.sendMessage(ChatColor.YELLOW + "SOFTDEPEND: WorldGuard, WorldGuardEvents");
-            sender.sendMessage(ChatColor.YELLOW + "CONTRIBUTORS: Encrypted and Simran, Charmunk");
+            sender.sendMessage(ChatColor.YELLOW + "CONTRIBUTORS: Simran");
             sender.sendMessage(ChatColor.YELLOW + " ");
             sender.sendMessage(ChatColor.GOLD + "-----------------------------");
             return true;
